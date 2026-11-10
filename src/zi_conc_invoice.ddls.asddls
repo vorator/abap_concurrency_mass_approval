@@ -1,8 +1,8 @@
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Basic View for invoice table'
 @Metadata.ignorePropagatedAnnotations: false
-define root view entity ZI_conc_INVOICE as select from zconc_invoice
-  association [0..1] to ZI_conc_VENDOR as _Vendor
+define root view entity ZI_CONC_INVOICE as select from zconc_invoice
+  association [0..1] to ZI_CONC_VENDOR as _Vendor
   on $projection.VendorId = _Vendor.VendorId
 {
   key invoice_id  as InvoiceId,

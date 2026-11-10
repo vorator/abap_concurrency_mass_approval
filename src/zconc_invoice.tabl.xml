@@ -127,7 +127,7 @@
      <DATATYPE>CHAR</DATATYPE>
      <LENG>000001</LENG>
      <MASK>  CHAR</MASK>
-     <DDTEXT>P=Pending, A=Approved, R=Rejected</DDTEXT>
+     <DDTEXT>P=Pending, A=Approved, R=Rejected, T=Terminated</DDTEXT>
     </DD03P>
     <DD03P>
      <FIELDNAME>DESCRIPTION</FIELDNAME>

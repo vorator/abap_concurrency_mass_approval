@@ -2,7 +2,7 @@
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Basic View for vendor master table'
 @Metadata.ignorePropagatedAnnotations: true
-define root view entity ZI_conc_VENDOR as select from zconc_vendor
+define root view entity ZI_CONC_VENDOR as select from zconc_vendor
 {
   key vendor_id as VendorId,
   vendor_name   as VendorName,

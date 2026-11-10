@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition for concurrency proj'
+define service ZUI_CONC_INVOICE_O4 {
+  expose ZC_CONC_INVOICE as Invoice;
+  expose ZC_CONC_VENDOR  as Vendor;
+}
